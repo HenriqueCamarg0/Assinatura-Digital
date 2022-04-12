@@ -1,0 +1,43 @@
+.card-assinatura{
+    height: 150px;
+    width: 70%;
+    /* background-color: rosybrown; */
+    display: flex;
+    align-items: center;
+}
+/* .card-assinatura img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+} */
+.nome-ass{
+    font-size: 20px;
+    font-weight: bold;
+    color: #090a1f;
+}
+.cargo-ass{
+    font-size: 15px;
+    color: #090a1f;
+}
+
+.tel-fixo, .tel-cel, .site{
+    font-size: 13px;
+}
+.email-ass{
+    font-weight: 100;
+    font-style: italic;
+    
+}
+.margem{
+    margin-right: 5px;
+}
+
+.col {
+    position: relative;
+width:auto;
+ 
+}
+
+.pad{
+    padding-right: 0;
+}
