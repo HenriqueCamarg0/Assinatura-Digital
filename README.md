@@ -107,11 +107,7 @@ Para modificar o projeto:
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença [Adicione sua licença aqui]. Veja o arquivo LICENSE para mais detalhes.
-
-## 👥 Autores
-
-- **[Henrique Camargo]** 
+Este projeto está licenciado sob a licença [Adicione sua licença aqui]. Veja o arquivo LICENSE para mais detalhes. 
 
 ## 🙏 Agradecimentos
 
@@ -120,4 +116,4 @@ Este projeto está licenciado sob a licença [Adicione sua licença aqui]. Veja 
 
 ---
 
-⭐️ Feito com ❤️ por [Seu Nome](https://github.com/seu-usuario) ⭐️
+⭐️ Feito com ❤️ por [Seu Nome](https://github.com/HenriqueCamarg0) ⭐️
