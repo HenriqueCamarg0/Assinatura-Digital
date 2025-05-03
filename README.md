@@ -111,7 +111,7 @@ Este projeto está licenciado sob a licença [Adicione sua licença aqui]. Veja 
 
 ## 👥 Autores
 
-- **[Seu Nome]** - *Desenvolvedor Inicial* - [seu-usuario](https://github.com/seu-usuario)
+- **[Henrique Camargo]** 
 
 ## 🙏 Agradecimentos
 
