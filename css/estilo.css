@@ -1,43 +1,186 @@
-.card-assinatura{
-    height: 150px;
-    width: 70%;
-    /* background-color: rosybrown; */
+/* Variáveis de cores e estilos */
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --text-color: #212529;
+    --light-bg: #f8f9fa;
+    --border-radius: 8px;
+    --transition: all 0.3s ease;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos dos cards */
+.card {
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
+    padding: 15px 20px;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Estilos de formulário */
+.form-control {
+    border-radius: var(--border-radius);
+    padding: 10px 15px;
+    border: 1px solid #ced4da;
+    transition: var(--transition);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.form-label {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Estilos dos botões */
+.btn {
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5c636a;
+    transform: translateY(-2px);
+}
+
+/* Estilos da assinatura */
+.assinatura-preview {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nome-ass {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.cargo-ass {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.info-linha {
+    font-size: 14px;
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
 }
-/* .card-assinatura img{
-    height: 80px;
-    width: 80px;
-    border: 1px solid black;
-} */
-.nome-ass{
-    font-size: 20px;
-    font-weight: bold;
-    color: #090a1f;
-}
-.cargo-ass{
-    font-size: 15px;
-    color: #090a1f;
+
+.info-linha i {
+    width: 20px;
+    text-align: center;
+    margin-right: 8px;
+    color: var(--primary-color);
 }
 
-.tel-fixo, .tel-cel, .site{
-    font-size: 13px;
-}
-.email-ass{
-    font-weight: 100;
-    font-style: italic;
-    
-}
-.margem{
-    margin-right: 5px;
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.col {
-    position: relative;
-width:auto;
- 
+.logo-container img {
+    max-width: 100%;
+    height: auto;
 }
 
-.pad{
-    padding-right: 0;
+/* Ícones de redes sociais */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.social-icons a:hover {
+    color: #0b5ed7;
+    transform: scale(1.1);
+}
+
+/* Feedback de validação */
+.feedback {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card-header {
+        padding: 12px 15px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .assinatura-preview {
+        padding: 15px;
+    }
 }
