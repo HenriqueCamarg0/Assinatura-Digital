@@ -17,7 +17,7 @@ O Gerador de Assinatura Digital é uma aplicação web que permite aos colaborad
 
 ## 🖼️ Capturas de Tela
 
-![Exemplo de Assinatura](img/exemplo.png)
+![Exemplo de Assinatura](img/exemplo.jpg)
 
 ## 🛠️ Tecnologias Utilizadas
 
